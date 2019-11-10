@@ -1,6 +1,6 @@
 require 'pry'
 
-  
+
   contacts = {
      "Jon Snow" => {
        name: "Jon",
@@ -15,5 +15,5 @@ require 'pry'
    }
 
 def remove_strawberry(contacts)
-
+  contacts.delete_if{|u| u[:favorite_ice_cream_flavors] == "#{strawberry}"}
 end
