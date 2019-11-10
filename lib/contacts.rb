@@ -15,5 +15,5 @@ require 'pry'
    }
 
 def remove_strawberry(contacts)
-  contacts.each { |k,v| v.delete(:strawberry) if k == :favorite_ice_cream_flavors}
+  
 end
